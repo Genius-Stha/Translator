@@ -1,4 +1,4 @@
-# SEQUENCE TO SEQUENCE
+# TRANSLATOR (ENGLISH TO SPANISH)
 In this project i have applied encoder-decoder and Transformer architecture for english to spanish translation where the encoder and decoder block contains LSTM blocks for processing and Transformer block contains attention mechanism for sequence to sequence translation. The model is trained on a large dataset of English to Spanish sentences and then evaluated on a test set to measure its performance. The model is able to translate English sentences into Spanish with high accuracy and fluency. The model is also able to handle out-of-vocabulary words by using a pre-trained word embedding.
 ## ENCODER DECODER
 The encoder-decoder architecture is a common approach for sequence to sequence translation. In this architecture, the encoder takes the input sequence and produces a context vector, which is then passed to the decoder. The decoder takes the context vector and the input sequence, and generates the output sequence. The encoder-decoder architecture is simple and easy to implement, but it can be slow for long sequences.
